@@ -11,13 +11,13 @@ namespace WebAPIOwinBoilerplate
     {
         protected void Application_Start()
         {
-            // When creating a new Web API project this is the default entry point to your API.  Using OWIN / Katana
-            // as middleware
+            // This is the default entry point to any new Web API project.
 
-            // This entry point is replaced by the OWIN Startup.cs class.  The Configuration method (which is required)
-            // is where any WebApi configuration is placed (i.e. WebApiConfig.Register).  
-            // Leaving this Application_Start() method here will result in it running along with the OWIN entry point.  
-            // Better to remove it so there's only one entry point (OWIN Startup.cs).  However, leaving it here for learning purposes.
+            // This entry point can be replaced by the OWIN Startup.cs class.  The Configuration method (which is required)
+            // is where WebApi configuration is usually stored (i.e. WebApiConfig.Register).  
+
+            // This Application_Start() method has been left here for the purposes of demonstrating the default entry point for Web Api application which 
+            // can be replaced with Startup.cs.
 
             //GlobalConfiguration.Configure(WebApiConfig.Register);
         }
