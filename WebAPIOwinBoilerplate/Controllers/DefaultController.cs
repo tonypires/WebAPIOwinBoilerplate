@@ -24,6 +24,7 @@ namespace WebAPIOwinBoilerplate.Controllers
         // POST: api/Default
         public void Post([FromBody]string value)
         {
+            Console.WriteLine($"Post message received {value}");
         }
 
         // PUT: api/Default/5
